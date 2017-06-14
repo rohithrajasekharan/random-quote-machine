@@ -1,0 +1,93 @@
+body {
+  margin-top: 60px;
+  margin-bottom: 60px;
+background:#3b5998;
+}
+.quo{background:white;
+  width: 600px;
+    min-height: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+}
+h1{
+  color:#3b5998;
+  text-decoration:underline;
+}
+.margin {
+  margin-right:90px;
+  margin-left:80px;
+}
+.border {
+ border-color: white;
+  border-width: 10px;
+ border-style: solid;
+}
+.butt{
+  background:#3b5998;
+  width:150px;
+  height:auto;
+  padding:10px;
+  color:white;
+
+}
+.butt:hover {
+    background:white;
+  color:#3b5998;
+  border-color:#3b5998;
+  border-width: .5px;
+ border-style: solid;
+  cursor:pointer;
+}
+h3{
+  padding:60px;
+}
+h2 {
+    margin: 0 0 $lh 0;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-size: 1.5em;
+  color:#3b5998
+  }
+.quotes{
+  padding:50px;
+}
+#quote{
+  font-family:"Times New Roman";
+  font-style:Italic;
+  letter-spacing:.1em;
+}
+blockquote {
+	font-size:20px;
+	border-top:1px solid #3b5998;
+	border-bottom:1px solid #3b5998;
+	position:relative;
+	quotes: "\201C""\201D""\2018""\2019";
+  padding:50px;
+}
+blockquote:after {
+	color:#3b5998;
+	font-family:Source Sans Pro;
+	content: open-quote;
+	font-size:80px;
+	position:absolute;
+	left:50%;
+	bottom:calc(100% - 15px);
+	background:#fff;
+	height:55px;
+	width: 55px;
+	line-height:normal;
+	text-align:center;
+	transform:translateX(-50%);
+}
+.change{
+  float:right;
+  padding:20px;
+
+}
+#tweet{
+  float:left;
+   padding:20px;
+}
